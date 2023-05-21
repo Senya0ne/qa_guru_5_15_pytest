@@ -12,7 +12,7 @@ def pc_browser():
     browser.config.window_width = '1280'
     browser.config.window_height = '960'
 
-    yield
+    yield browser
 
     browser.quit()
 
@@ -22,7 +22,7 @@ def mobile_browser():
     browser.config.window_width = '400'
     browser.config.window_height = '628'
 
-    yield
+    yield browser
 
     browser.quit()
 
