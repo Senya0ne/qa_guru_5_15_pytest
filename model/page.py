@@ -1,4 +1,4 @@
-from selene.support.conditions import be, have
+from selene.support.conditions import have
 from selene.support.shared import browser
 
 
